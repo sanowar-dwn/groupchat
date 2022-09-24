@@ -1,7 +1,7 @@
 import socket
 import threading
 
-nickname = input("Choose your nickname before joining server: ")
+nickname = input("Choose your Nickname before joining server: ")
 
 client = socket.socket(socket.AF_INET,socket.SOCK_STREAM)
 
